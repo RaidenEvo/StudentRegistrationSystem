@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subject Selection</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="subjects.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1 id="welcomeMessage">Welcome, Student!</h1>
+
+            <button id="logoutButton">Logout</button>
+
+            <p>You have successfully registered.</p>
+
+            <h3>Subject Load Selection</h3>
+
+            <p>Please review the available subjects below.</p>
+
+            <div class="subject-list">
+                
+                <div class="subject" data-subject="IT101">
+                    <strong>IT101</strong>
+                    <span>Introduction to computing</span>
+                </div>
+
+                <div class="subject" data-subject="IT102">
+                    <strong>IT102</strong>
+                    <span>Database Management</span>
+                </div>
+
+                <div class="subject" data-subject="IT103">
+                    <strong>IT103</strong>
+                    <span>Web Development</span>
+                </div>
+
+                <div class="subject" data-subject="IT104">
+                    <strong>IT104</strong>
+                    <span>Object-Oriented Programming</span>
+                </div>
+
+            </div>
+
+            <button id="saveSubjects">Save Subjects</button>
+
+            <p id="saveMessage"></p>
+        </div>
+    </body>
+</html>
