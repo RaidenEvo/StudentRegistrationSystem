@@ -45,6 +45,6 @@ registrationForm.addEventListener("submit", async function (event) {
         message.textContent = "Registration successful!";
         window.location.href = "subjects.html";
     } else {
-        message.textContent = "Account created! Please check your email to confirm your registration.";
+        message.textContent = "If registration is successful, please check your email for confirmation.";
     }
 });
